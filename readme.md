@@ -11,3 +11,8 @@ docker-compose up
 
 ## Usage
 Open up http://127.0.0.1/ or http://localhost/ to see your Flask app in action. Port 80.
+
+added files: \
+
+docker-compose_copy.yml - docker compose file without nginx
+commands.txt - some commands for run and kill processes

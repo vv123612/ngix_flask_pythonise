@@ -1,0 +1,12 @@
+work
+uwsgi --socket 127.0.0.1:5000 --protocol=http -w run:app
+curl 127.0.0.1:5000
+
+work
+uwsgi --socket :5000 --protocol=http -w run:app
+curl 127.0.0.1:5000
+
+
+ps -eF
+
+killall uwsgi app.ini
